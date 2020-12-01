@@ -248,3 +248,73 @@ html.open, .open body {
 	margin-left: 0.55rem;
 }
 }
+/* ------- コンテンツ -------*/
+
+/* container */
+.container {
+	padding: 0.68rem var(--side);
+}
+@media(min-width: 768px) {
+	.container.menu,
+	.container.new {
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+	}
+}
+.container h2{
+	font-size: 0.26rem;
+	font-family: Montserrat;
+	letter-spacing: 0.179em;
+	line-height: 1;
+}
+.container h2 + p {
+	font-size: 0.13rem;
+}
+.container.info h2 + p {
+	font-size: 0.16rem;
+	color: var(--midgray);
+	font-weight: bold;
+	letter-spacing: 0.516em;;
+}
+.container.menu h2::after,
+.container.new h2::after,
+.container.hours h2::after {
+	content: '';
+	width: 0.56rem;
+	height: 4px;
+	margin-top: 0.17rem;
+	margin-bottom: 0.1rem;
+	background-color: var(--primary);
+	display: block;
+}
+.container.hours h2::after {
+	width: 0.28rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container.hours h2 {
+	letter-spacing: 0;
+}
+.container.info h2 img {
+	width: 2.44rem;
+}
+@media(min-width: 768px) {
+	.container h2 {
+			font-size: 0.42rem;
+	}
+	.container.menu h2::after,
+	.container.new h2::after,
+	.container.hours h2::after {
+			width: 0.85rem;
+			margin-top: 0.23rem;
+			margin-bottom: 0.14rem;
+	}
+	.container.menu h2 + p,
+	.container.new h2 + p,
+	.container.hours h2 + p {
+			font-size: 0.2rem;
+	}
+	.container.info h2 {
+			font-size: 0.32rem;
+	}
+}
