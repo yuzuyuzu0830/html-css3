@@ -318,3 +318,100 @@ html.open, .open body {
 			font-size: 0.32rem;
 	}
 }
+/* Food & Drink */
+/* Food & Drink: basic */
+.item {
+	margin-top: 0.64rem;
+}
+.item h3 {
+	font-size: 0.16rem;
+	margin-bottom: 0.19rem;
+	line-height: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.item h3::before {
+	content: url(img/mark.svg);
+	display: block;
+	width: 0.4rem;
+	margin-right: 0.1rem;
+}
+.item p {
+	margin-bottom: 0.16rem;
+	font-size: 0.14rem;
+}
+.text {
+	width: 76vw;
+}
+.item.plate .text {
+	margin-left: auto;
+}
+.item.plate h3 {
+	flex-direction: row-reverse;
+}
+.item.plate h3::before {
+	margin-left: 0.1rem;
+	margin-right: 0;
+}
+.item .photo {
+	display: flex;
+	align-items: flex-end;
+	margin: 0 calc( var(--side) * -1);
+}
+.item.cafe .fig1 {
+	flex: 1 1 auto;
+	margin-right: -0.47rem;
+	margin-bottom: 0.38rem;
+}
+.item.cafe .fig2 {
+	flex: 0 0 43vw;
+}
+.item.cafe .fig2 img {
+	height: 1.56rem;
+}
+.item img {
+	width: 100%;
+	object-fit: cover;
+	max-height: 2rem;
+}
+.item.plate .fig1 {
+	flex: 0 0 85.6vw;
+}
+.item.sweet .fig1 {
+	flex: 1 1 auto;
+	margin-right: -0.26rem;
+	margin-bottom: 0.38rem;
+}
+.item.sweet .fig2 {
+	flex: 0 0 56.2vw;
+}
+.item.sweet img {
+	height: 2rem;
+}
+@media(min-width: 768px) {
+	.item h3 {
+			margin-bottom: 0.22rem;
+			font-size: 0.25rem;
+	}
+	.item p {
+			font-size: 0.16rem;
+	}
+	.item h3::before {
+			width: 0.48rem;
+	}
+	.item {
+			margin-top: 1rem;
+			display: flex;
+	}
+	.item .text {
+			margin-right: 0.49rem;
+			flex: 0 0 3.12rem;
+	}
+	.item .photo {
+			flex: 1 1 auto;
+			margin: 0;
+	}
+	.item .img {
+			max-height: none;
+	}
