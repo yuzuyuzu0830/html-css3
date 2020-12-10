@@ -462,3 +462,38 @@ html.open, .open body {
 .item.plate h3 {
 	margin-right: -0.58rem;
 }
+/* Food $ Drink: heart */
+.item .text {
+	position: relative;
+	z-index: 2;
+}
+.item .photo {
+	position: relative;
+}
+.item.cafe .photo::after {
+	content: url(img/cafe.svg);
+	display: block;
+	position: absolute;
+	top: -12vw;
+	right: 12vw;
+	width: 28vw;
+	opacity: 0.8;
+}
+.item.plate .photo::after {
+	content: url(img/plate.svg);
+	display:block;
+	position: absolute;
+	top: -14vw;
+	left: 1.3vw;
+	width: 30vw;
+	opacity: 0.8;
+}
+.item.sweet .photo::after {
+	content: url(img/sweet.svg);
+	display: block;
+	position: absolute;
+	width: 32vw;
+	top: -12vw;
+	right: 35vw;
+	opacity: 0.8;
+}
