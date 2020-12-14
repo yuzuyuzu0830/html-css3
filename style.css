@@ -569,3 +569,24 @@ html.open, .open body {
 	width: 0.18rem;
 	height: 0.15rem;
 }
+
+@media(min-width: 768px) {
+	.new dl,
+	.new .more {
+			margin-left: calc(var(--side) * 2);
+			margin-right: calc(var(--side) * 2);
+	}
+	.new dl {
+			display: flex;
+			flex-wrap: wrap;
+	}
+	.new dt {
+			flex: 0 0 1.57rem;
+	}
+	.new dd {
+			flex: 0 0 auto;
+			width: calc(100% - 1.57rem);
+	}
+	.new dd:not(:last-child) {
+			margin-bottom: 0.08rem;
+	}
