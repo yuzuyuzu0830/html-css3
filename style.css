@@ -648,14 +648,5 @@ html.open, .open body {
 			margin-left: 0.06rem;
 	}
 
-	/* footer */
-.footer {
-	background-color: var(--darkgray);
-	text-align: center;
-	height: 89px;
-	color: var(--white);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+
 }
