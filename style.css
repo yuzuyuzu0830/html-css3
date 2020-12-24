@@ -625,28 +625,6 @@ html.open, .open body {
 	flex-direction: column;
 	align-items: center;
 }
-@media(min-width: 678px) {
-	.info {
-			display: flex;
-	}
-	.info .text {
-			flex: 0 0 auto;
-			width: calc((var(--side) * 2) + 3.12rem);
-			margin-right: 0.49rem;
-			align-items: flex-start;
-			margin-bottom: 0.28rem;
-			margin-top: 0.28rem;
-	}
-	.info .map {
-			flex: 1 1 auto;
-			margin-top: 0;
-	}
-	.info .map iframe {
-			height: 100%;
-	}
-	.info h2 + p {
-			margin-left: 0.06rem;
-	}
 
 
 }
