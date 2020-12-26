@@ -528,47 +528,6 @@ html.open, .open body {
 	.menu-inner .item.cafe {
 			margin-top: 0;
 	}
-}
-/* What's New */
-.new {
-	background-image: url(img/edge.png), url(img/texture.jpg);
-	background-repeat: repeat-x, repeat;
-}
-.new dl {
-	font-size: 0.14rem;
-	margin-top: 0.35rem;
-	margin-bottom: 0.35rem;
-}
-.new dt {
-	font-weight: bold;
-	color: var(--gray);
-	margin-bottom: 0.03rem;
-}
-.new dd {
-	margin-left: 0;
-}
-.new dd:not(:last-child) {
-	margin-bottom: 0.38rem;
-}
-.new .more {
-	color: var(--primary);
-	font-size: 0.16rem;
-	font-weight: bold;
-	display: flex;
-	align-items: center;
-	margin-right: 0.11rem;
-	text-align: right;
-	justify-content: flex-end;
-	border-top: solid 0.12rem currentColor;
-	padding-top: 0.16rem;
-}
-.new .more::after {
-	content: url(img/arrow.svg);
-	display: block;
-	transform: rotate(-90deg);
-	width: 0.18rem;
-	height: 0.15rem;
-}
 
 
 
