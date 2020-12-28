@@ -497,26 +497,6 @@ html.open, .open body {
 	right: 35vw;
 	opacity: 0.8;
 }
-@media(min-width: 768px) {
-	.item.cafe .photo::after {
-			left: -0.85rem;
-			bottom: 0.12rem;
-			width: 2rem;
-			top: auto;
-			right: auto;
-	}
-	.item.plate .photo::after {
-			width: 2rem;
-			left: auto;
-			right: -1.48rem;
-			top: -1.21rem;
-	}
-	.item.sweet .photo::after {
-			width: 2.27rem;
-			top: 1.11rem;
-			left: -1.68rem;
-			right: auto;
-	}
 
 
 
