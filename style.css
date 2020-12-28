@@ -517,17 +517,7 @@ html.open, .open body {
 			left: -1.68rem;
 			right: auto;
 	}
-	.menu-inner {
-			position: relative;
-	}
-	.menu-title {
-			position: absolute;
-			left: o;
-			top: 0.13rem;
-	}
-	.menu-inner .item.cafe {
-			margin-top: 0;
-	}
+
 
 
 
