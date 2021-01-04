@@ -404,17 +404,7 @@ html.open, .open body {
 			margin-top: 1rem;
 			display: flex;
 	}
-	.item .text {
-			margin-right: 0.49rem;
-			flex: 0 0 3.12rem;
-	}
-	.item .photo {
-			flex: 1 1 auto;
-			margin: 0;
-	}
-	.item .img {
-			max-height: none;
-	}
+
 
 
 
